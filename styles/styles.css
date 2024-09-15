@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    
+}
+.header__img--size{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: auto;
+    margin-top: auto;
+}
+
+
+
+
+.img-redes{ 
+    width: 35px;
+    transition: transform 0.3s ease;
+}
+
+.nav__img--size{
+    width: 200px;
+}
+
+
+
+.texto-nav {
+
+    position: relative; /* Necesario para posicionar el subrayado */
+    color: black; /* Color del texto */
+    overflow: hidden; /* Asegura que el subrayado no se desborde del contenedor */
+    transition: 0.5s ease;
+    
+  }
+  
+.texto-nav:hover{
+    color: orange;
+}
+  .header__ul{
+    padding-right: 40px;
+  }
+
+
+  .card__container{ 
+    
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.main__img {
+    width: 100vw; /* Ocupa el 100% del ancho de la ventana */
+    height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
+    object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
+  }
