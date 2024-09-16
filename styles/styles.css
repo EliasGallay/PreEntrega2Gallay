@@ -90,7 +90,7 @@ a{
     border-radius: 10px;
     text-justify: center;
     width: auto;
-    background: linear-gradient(45deg, #f2c508, orange,#f2c508, orange);
+    
     background-size: 400% 400%;
     animation: cambiar 10s ease infinite;
     margin-bottom: 25px;
@@ -128,7 +128,7 @@ a{
     border: solid;
     border-radius: 10px;
     width: auto;
-    background: linear-gradient(45deg, #f2c508, orange,#f2c508, orange);
+    
     background-size: 400% 400%;
     animation: cambiar 10s ease infinite;
     margin-bottom: 25px;
@@ -140,3 +140,7 @@ a{
     color: orangered;
   }
   
+  a h2{
+    text-decoration:  none;
+    color: black;
+  }
