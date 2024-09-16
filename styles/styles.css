@@ -43,7 +43,7 @@ a{
     color: orange;
 }
   .header__ul{
-    padding-right: px;
+    padding-right: 80px;
   }
 
 
@@ -144,3 +144,55 @@ a{
     text-decoration:  none;
     color: black;
   }
+
+  .section__contacto{
+    margin-top: 10vh;
+    display: flex;
+    /* background-color: orange; */
+    justify-content: space-evenly;
+  }
+
+  .section__contacto :first-child{
+    /* background-color: red; */
+    align-self: center;
+  }
+ 
+
+
+  @media screen and (max-width: 768px){
+    .section__contacto{
+        margin-top: 10vh;
+        display: flex;
+        /* background-color: orange; */
+        flex-direction: column;
+      }
+
+      .section__contacto div{
+        overflow: auto;
+        
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
+
+}
+
+@media screen and (max-width: 480px){
+  .section__contacto{
+    margin-top: 10vh;
+    display: flex;
+    /* background-color: orange; */
+    flex-direction: column;
+  }
+
+  .section__contacto div{
+    overflow: auto;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+
+
+}
