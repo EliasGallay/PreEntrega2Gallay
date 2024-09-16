@@ -158,6 +158,16 @@ a{
     align-self: center;
   }
  
+  input{
+    border: solid !important;
+    border-style: double !important;
+  
+  }
+  
+  textarea{
+    border: solid !important;
+    border-style: double !important;
+  }
 
 
   @media screen and (max-width: 768px){
@@ -186,6 +196,8 @@ a{
     flex-direction: column;
   }
 
+
+
   .section__contacto div{
     overflow: auto;
     
@@ -194,6 +206,5 @@ a{
   }
 
 
-
-
 }
+
