@@ -43,7 +43,7 @@ a{
     color: orange;
 }
   .header__ul{
-    padding-right: 80px;
+    padding-right: px;
   }
 
 
@@ -69,3 +69,74 @@ a{
 
 
 
+  .contenedor-imagenes{
+
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    overflow: auto; /*no supe cambiar el estilo de la barra*/
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0px;
+  
+  
+    
+  }
+  
+  .contenedor-imagenes p{
+    text-align: center;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
+    text-justify: center;
+    width: auto;
+    background: linear-gradient(45deg, #f2c508, orange,#f2c508, orange);
+    background-size: 400% 400%;
+    animation: cambiar 10s ease infinite;
+    margin-bottom: 25px;
+  
+  }
+  
+  .contenedor-imagenes p:hover{
+    border-color: orangered;
+    transition: 1s;
+    color: orangered;
+  }
+  
+  .contenedor-imagenes img{
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    border: solid;
+    border-radius: 10px;
+    filter: brightness(50%);
+    transition: filter 0.3s ease;
+    overflow: auto;
+    margin-bottom: 15vh;
+  
+  }
+  
+  
+  .contenedor-imagenes img:hover{
+    filter:brightness(100%);
+    transition: 1s;
+  }
+  .cartel-flotante{
+    text-align: center;
+    padding:10px;
+    border: solid;
+    border-radius: 10px;
+    width: auto;
+    background: linear-gradient(45deg, #f2c508, orange,#f2c508, orange);
+    background-size: 400% 400%;
+    animation: cambiar 10s ease infinite;
+    margin-bottom: 25px;
+  }
+  
+  .cartel-flotante:hover{
+    border-color: orangered;
+    transition: 1s;
+    color: orangered;
+  }
+  
