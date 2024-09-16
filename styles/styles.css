@@ -60,6 +60,7 @@ a{
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
     object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
     overflow-x: hidden;
+
   }
 
   .tarjetas__servicios{
